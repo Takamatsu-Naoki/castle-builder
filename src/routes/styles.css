@@ -1,0 +1,14 @@
+:root {
+	font-family: 'Noto Sans Mono', monospace;
+	font-weight: 400;
+  font-size: 24px;
+	font-style: normal;
+  color: #f5f6f7;
+  line-height: 0.75;
+}
+
+body {
+	margin: 0;
+	background-color: #222222;
+	background-attachment: fixed;
+}
