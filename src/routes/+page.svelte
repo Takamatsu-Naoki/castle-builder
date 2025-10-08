@@ -52,8 +52,7 @@
 				)
 			: stageArray;
 
-    if(key === keyConfig.enter)
-      window.location.href = "/game/" + stageArray[selectedStage];
+		if (key === keyConfig.enter) window.location.href = '/game/' + stageArray[selectedStage];
 	};
 
 	onMount(() => {
