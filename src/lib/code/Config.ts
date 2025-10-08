@@ -50,11 +50,11 @@ export type Stage = {
 };
 
 export const defaultStage: Stage = {
-      tableSize: { row: 5, column: 5 },
-      initialCoordinate: { x: 1, y: 1 },
-      enemyCount: 1,
-      rewardCount: 1
-    }
+  tableSize: { row: 5, column: 5 },
+  initialCoordinate: { x: 1, y: 1 },
+  enemyCount: 1,
+  rewardCount: 1
+};
 
 export const stageSet: ReadonlyMap<string, Stage> = new Map([
   [
@@ -82,6 +82,15 @@ export const stageSet: ReadonlyMap<string, Stage> = new Map([
       initialCoordinate: { x: 1, y: 1 },
       enemyCount: 3,
       rewardCount: 5
+    }
+  ],
+  [
+    'no hope',
+    {
+      tableSize: { row: 31, column: 31 },
+      initialCoordinate: { x: 15, y: 15 },
+      enemyCount: 10,
+      rewardCount: 20
     }
   ]
 ]);
